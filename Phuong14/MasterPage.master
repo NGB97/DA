@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hệ thống đăng ký khai sinh trực tuyến</title>
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Content/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Content/css/style2.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="footer">
+        <div class="container">
+            <div class="row bottom">
+                <div class="row col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <div class="top_ft">
+                        <div class="top_ft">
+                            <div class="col-xs-3 col-sm-2 col-md-2">
+                                <img src="Content/img/quochuy.png" class="img" alt="">
+                            </div>
+                            <div class="col-xs-9 col-sm-10 col-xs-9 col-md-10 logo_ft">
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

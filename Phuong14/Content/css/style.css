@@ -1,0 +1,295 @@
+body{
+    background-image : url('../img/bg5.png');   
+    background-size:  100%;
+    color: #fff;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_chu{
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px
+}
+.logo_chu:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.logo_chu1{
+    margin-top:0;
+    font-weight: 700;
+}
+.logo_chu2{
+   margin-top:-12px;
+}
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #f1f1f1db;
+    float: left;
+    width: 80%;
+    color: #000;
+    background: #f1f1f1db;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 30px 20px 10px -10px #d679195e;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196f3d9;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #2196f3d9;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 5px 0px 0px #d679195e;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.btn_1{
+    border-radius: 16px;
+    font-size: 14px;
+    padding: 6px 10px 6px 10px;
+    background: #0690fb;
+    border: #0690fb;
+    font-weight: 600
+}
+:focus {
+    outline: none;
+}
+.btn:active:focus, .btn:focus {
+    outline: none;
+}
+.btn_2{
+    border-radius: 16px;
+    font-size: 14px;
+    padding: 6px 10px 6px 10px;
+    background: #ff7d23;
+    border: #ff7d23;
+    font-weight: 600
+}
+.navbar {
+    background-color:none;
+    border: none; 
+}
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+    background-color: #ddd;
+}
+.navbar-nav>li>a{
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    border: 1px solid;
+}
+.navbar-right{
+    margin-top: 10px
+}
+.navbar-right a{
+    color: #fff;
+
+}
+#contain{
+    margin-left: 96px;
+}
+#contain h4{
+    margin-top: 100px;
+    color: #ffffffd1
+}
+#contain h2{
+    font-weight: 700;
+    font-style: italic;
+    font-size:34px;
+    color: #ffffffe3
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-radius: 0;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+}
+.input-group .form-control:not(:first-child):not(:last-child), 
+.input-group-addon:not(:first-child):not(:last-child), 
+.input-group-btn:not(:first-child):not(:last-child) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+.btn-default-1 {
+    color: #333;
+    background-color: #fff;
+    border-radius: 0;
+    height: 50px;
+}
+.input-group-addon, .input-group-btn {
+    width:12%;
+    vertical-align: middle;
+}
+.icon{
+    width: 30%;
+    float: left;
+}
+.chu{
+    width: 70%;
+    float: right;
+}
+
+#hdsd {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1a1ac4;
+    border: 1px solid #555;
+    border-radius: 6px
+  }
+  
+#hdsd li a {
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px
+  }
+  
+#hdsd li {
+    border-bottom: 1px solid #555;
+  }
+  
+  #hdsd li:last-child {
+    border-bottom: none;
+  }
+  
+  #hdsd li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #hdsd li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+.center {
+    margin-top:50px;   
+}
+
+.modal-header {
+    padding-bottom: 5px;
+    background: #0271c7
+}
+.modal-title{
+    text-align: center;
+    font-weight: 600;
+}
+#loginform{
+    padding: 10px 30px 10px 30px
+}
+.modal-footer {
+    padding: 0;
+}
+.modal-dialog  {
+    padding: 100px;
+} 
+.input-group-addon{
+    background: none
+}
+.input-group h4{
+    color:#0271c7 ;
+    font-size: 14px
+}
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+.btn-success {
+    color: #fff;
+    width: 100%;
+    background-color: #078bf2;
+    border-color: #078bf2;
+    border-radius: 30px;
+}
+.btn-success:hover {
+    background-color: #078bf2;
+    border-color: #078bf2;
+}
+
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+@media (max-width: 767px){
+    .navbar .navbar-collapse, .navbar .navbar-form {
+        margin-top: 50px;
+    }
+    #contain{
+        margin-left: 0;
+    }
+    .modal-dialog{
+        padding: 0
+    }
+    body{
+        background-size:cover;
+    }
+    .logo_chu1{
+        font-size: 19px;
+    }
+    .logo_chu2{
+        font-size: 7px
+    }
+}
+@media (max-width:592px){
+    form.example button{
+        padding: 0;
+        height: 46px;
+        font-size: 13px
+    }
+}
+.by{
+    padding-top: 210px
+}
+.by h4{
+    color: #000;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px
+}
